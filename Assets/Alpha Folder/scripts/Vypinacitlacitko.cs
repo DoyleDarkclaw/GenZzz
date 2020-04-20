@@ -12,6 +12,7 @@ public class Vypinacitlacitko : MonoBehaviour
     public GameObject novakamara;
     public GameObject starakamera;
     public GameObject dialog;
+    public int i;
 
     public void Start()
     {
@@ -24,11 +25,11 @@ public class Vypinacitlacitko : MonoBehaviour
         {
             dodialogu();
         }
-
         if (Input.GetKey(KeyCode.Q))
         {
             venzdialogu();
         }
+
     }
 
     public void dodialogu()
@@ -43,6 +44,7 @@ public class Vypinacitlacitko : MonoBehaviour
         dialog.SetActive(false);
         novakamara.SetActive(false);
         starakamera.SetActive(true);
+        i = 1;
     }
 
 

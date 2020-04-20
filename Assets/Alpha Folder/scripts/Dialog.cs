@@ -9,6 +9,7 @@ public class Dialog : MonoBehaviour
     public string[] sentences;
     private int index;
     public float typingSpeed;
+    
 
     public GameObject continueButton;
     public GameObject vypinaciButton;
