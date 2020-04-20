@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2727312492081474970
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2727312492081474964}
+  - component: {fileID: 2727312492081474971}
+  - component: {fileID: 2727312492081474965}
+  m_Layer: 0
+  m_Name: ALPHA GAME MANAGER
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2727312492081474964
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2727312492081474970}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 352.21835, y: 195.61256, z: -84.21277}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2727312492081474971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2727312492081474970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d234760ac009c74f96f1efce77ee58c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  menu1: {fileID: 0}
+  menu2: {fileID: 0}
+--- !u!114 &2727312492081474965
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2727312492081474970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c7c5b74d8ac48e4daa7b09292c79e08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Spawner1: {fileID: 0}
+  Spawner2: {fileID: 0}
+  Spawner3: {fileID: 0}
+  Spawner4: {fileID: 0}
+  Spawner5: {fileID: 0}
+  Spawner6: {fileID: 0}
+  Spawner7: {fileID: 0}
+  Spawner8: {fileID: 0}
+  Spawner9: {fileID: 0}
+  Spawner10: {fileID: 0}
+  Spawner11: {fileID: 0}
+  Spawner12: {fileID: 0}
+  Spawner13: {fileID: 0}
+  Spawner14: {fileID: 0}
+  Spawner15: {fileID: 0}
+  Spawner16: {fileID: 0}
+  Spawner17: {fileID: 0}
+  Spawner18: {fileID: 0}
+  mob1: {fileID: 0}
+  mob2: {fileID: 0}
+  mob3: {fileID: 0}
+  mob4: {fileID: 0}
+  mob5: {fileID: 0}
+  mob6: {fileID: 0}
+  mob7: {fileID: 0}
+  mob8: {fileID: 0}
+  mob9: {fileID: 0}
+  mob10: {fileID: 0}
+  mob11: {fileID: 0}
+  mob12: {fileID: 0}
+  mob13: {fileID: 0}
+  mob14: {fileID: 0}
+  mob15: {fileID: 0}
+  mob16: {fileID: 0}
+  mob17: {fileID: 0}
+  mob18: {fileID: 0}
+  mob19_matka: {fileID: 0}
+  mob20: {fileID: 0}
+  mob21: {fileID: 0}
+  mob22: {fileID: 0}
+  mob23: {fileID: 0}
+  mob24: {fileID: 0}
+  mob25: {fileID: 0}
+  mob26_boss: {fileID: 0}
+  j: 0
