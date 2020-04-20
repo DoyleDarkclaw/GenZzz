@@ -15,7 +15,13 @@ public class Posleni_pokus : MonoBehaviour
      UnityEngine.SceneManagement.SceneManager.LoadScene(1);
 
     }
-  
+    public void MainMenu()
+    {
+
+    UnityEngine.SceneManagement.SceneManager.LoadScene(0);
+
+    }
+
     public void Quitgame() 
     {
        
