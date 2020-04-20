@@ -17,6 +17,7 @@ public class Gun_switch : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+               
         if (Input.GetKey(KeyCode.Alpha1))
         {
             ray.SetActive(false);
