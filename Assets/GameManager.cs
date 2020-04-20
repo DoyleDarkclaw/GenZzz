@@ -4,6 +4,11 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
+    public GameObject menu1;
+    public GameObject menu2;
+    bool change = false;
+    bool unchange = true;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -16,12 +21,13 @@ public class GameManager : MonoBehaviour
         //PLAYER UI INPUT AND SHIET
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            Time.timeScale = 0f;
-        }
+            change = !change;
+            unchange = !unchange;
+            menu1.SetActive(change);
+            menu2.SetActive(unchange);
 
-        if (Input.GetKeyUp(KeyCode.Escape))
-        {
-            Time.timeScale = 1f;
+            if(change==true) Time.timeScale = 0f;  
+            else Time.timeScale = 1f;
         }
     }
 }
