@@ -6,8 +6,7 @@ public class Attack_kulky : MonoBehaviour
 {
 
     public float damage = 10f;
-    public float health= 100;
- 
+
 
     // Start is called before the first frame update
     void Start()
