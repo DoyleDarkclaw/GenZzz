@@ -1,10 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
-using UnityEngine.SceneManagement;
-using System.Runtime.Hosting;
-using System.Diagnostics;
+using UnityEngine.Audio;
 
 public class Vypinacitlacitko : MonoBehaviour
 {

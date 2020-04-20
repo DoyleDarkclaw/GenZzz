@@ -9,8 +9,8 @@ EditorBuildSettings:
     path: Assets/Scenes/START.unity
     guid: 11aaae465452b514eb9f4a5fb2d9aa32
   - enabled: 1
-    path: Assets/Scenes/MIDDLE.unity
-    guid: d1c3109bdb54ad54c8a2b2838528e640
+    path: Assets/Scenes/SampleScene.unity
+    guid: 8489ac8198acb984b938316236f30274
   - enabled: 1
     path: Assets/Scenes/END.unity
     guid: 3212faa5d1d10de40ad398053907abdb

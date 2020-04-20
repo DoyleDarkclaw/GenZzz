@@ -1,10 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
-using UnityEngine.SceneManagement;
-using System.Runtime.Hosting;
-using System.Diagnostics;
+using UnityEngine.Audio;
 
 public class Posleni_pokus : MonoBehaviour
 {
@@ -15,7 +12,15 @@ public class Posleni_pokus : MonoBehaviour
      UnityEngine.SceneManagement.SceneManager.LoadScene(1);
 
     }
-  
+
+    public void MainMenu()
+    {
+
+     UnityEngine.SceneManagement.SceneManager.LoadScene(0);
+
+    }
+
+
     public void Quitgame() 
     {
        
