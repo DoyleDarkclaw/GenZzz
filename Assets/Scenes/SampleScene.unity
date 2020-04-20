@@ -29277,8 +29277,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d234760ac009c74f96f1efce77ee58c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  menu1: {fileID: 0}
-  menu2: {fileID: 0}
+  menu1: {fileID: 3556680110087688978}
+  menu2: {fileID: 993729827}
 --- !u!4 &1598049368
 Transform:
   m_ObjectHideFlags: 0
